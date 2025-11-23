@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+    <script>
+        let count=0;
+      function increment(){
+            count=count+1;
+            document.getElementById("txt").innerHTML=count;
+      }
+      increment5=()=>{
+        count=count+5;
+        document.getElementById("t").innerHTML=count;
+      }
+    </script>
+<body>
+        <p id="t">0</p>
+        <button onclick="increment5()">increment by 5</button>
+
+       <button onclick="increment()">demo</button>
+       <p id ="txt">0</p>
+</body>
+</html>
